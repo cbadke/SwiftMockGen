@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BBB00F71CFF980000FC87C4 /* Verifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB00F61CFF980000FC87C4 /* Verifiable.swift */; };
 		0BBBEE3F1CFEFBC100C11EEB /* CallVerifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE3E1CFEFBC100C11EEB /* CallVerifierTests.swift */; };
-		0BBBEE441CFEFBDC00C11EEB /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE411CFEFBDC00C11EEB /* Mock.swift */; };
-		0BBBEE451CFEFBDC00C11EEB /* MockProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE421CFEFBDC00C11EEB /* MockProperties.swift */; };
 		0BBBEE461CFEFBDC00C11EEB /* CallVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */; };
 		0BBBEE481CFEFCAC00C11EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE471CFEFCAC00C11EEB /* main.swift */; };
 		0BBBEE491CFF013A00C11EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE471CFEFCAC00C11EEB /* main.swift */; };
-		0BBBEE4A1CFF013A00C11EEB /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE411CFEFBDC00C11EEB /* Mock.swift */; };
-		0BBBEE4B1CFF013A00C11EEB /* MockProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE421CFEFBDC00C11EEB /* MockProperties.swift */; };
 		0BBBEE4C1CFF013A00C11EEB /* CallVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,13 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0BBB00F41CFF957200FC87C4 /* SwiftMockGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftMockGen; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBB00F51CFF957200FC87C4 /* SwiftMockGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMockGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBB00F61CFF980000FC87C4 /* Verifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verifiable.swift; sourceTree = "<group>"; };
 		0BBBEE361CFEFADC00C11EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BBBEE3D1CFEFBC100C11EEB /* SwiftMockGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftMockGenTests.xctest; path = /Users/cbadke/git/SwiftMockGen/src/SwiftMockGen/build/Debug/SwiftMockGenTests.xctest; sourceTree = "<absolute>"; };
-		0BBBEE3E1CFEFBC100C11EEB /* CallVerifierTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallVerifierTests.swift; sourceTree = "<group>"; };
-		0BBBEE401CFEFBDC00C11EEB /* SwiftMockGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = SwiftMockGen; path = /Users/cbadke/git/SwiftMockGen/src/SwiftMockGen/build/Debug/SwiftMockGen; sourceTree = "<absolute>"; };
-		0BBBEE411CFEFBDC00C11EEB /* Mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
-		0BBBEE421CFEFBDC00C11EEB /* MockProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockProperties.swift; sourceTree = "<group>"; };
-		0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallVerifier.swift; sourceTree = "<group>"; };
+		0BBBEE3E1CFEFBC100C11EEB /* CallVerifierTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CallVerifierTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CallVerifier.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0BBBEE471CFEFCAC00C11EEB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,18 +60,27 @@
 			children = (
 				0B6B72211CFDAF7A00B36635 /* SwiftMockGen */,
 				0BBBEE331CFEFADC00C11EEB /* SwiftMockGenTests */,
+				0BBB00F41CFF957200FC87C4 /* SwiftMockGen */,
+				0BBB00F51CFF957200FC87C4 /* SwiftMockGenTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
 		0B6B72211CFDAF7A00B36635 /* SwiftMockGen */ = {
 			isa = PBXGroup;
 			children = (
+				0BBB00F81CFF99C100FC87C4 /* MockSamples */,
 				0BBBEE471CFEFCAC00C11EEB /* main.swift */,
-				0BBBEE411CFEFBDC00C11EEB /* Mock.swift */,
-				0BBBEE421CFEFBDC00C11EEB /* MockProperties.swift */,
 				0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */,
+				0BBB00F61CFF980000FC87C4 /* Verifiable.swift */,
 			);
 			path = SwiftMockGen;
+			sourceTree = "<group>";
+		};
+		0BBB00F81CFF99C100FC87C4 /* MockSamples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MockSamples;
 			sourceTree = "<group>";
 		};
 		0BBBEE331CFEFADC00C11EEB /* SwiftMockGenTests */ = {
@@ -104,7 +109,7 @@
 			);
 			name = SwiftMockGen;
 			productName = SwiftMockGen;
-			productReference = 0BBBEE401CFEFBDC00C11EEB /* SwiftMockGen */;
+			productReference = 0BBB00F41CFF957200FC87C4 /* SwiftMockGen */;
 			productType = "com.apple.product-type.tool";
 		};
 		0BBBEE311CFEFADC00C11EEB /* SwiftMockGenTests */ = {
@@ -121,7 +126,7 @@
 			);
 			name = SwiftMockGenTests;
 			productName = SwiftMockGenTests;
-			productReference = 0BBBEE3D1CFEFBC100C11EEB /* SwiftMockGenTests.xctest */;
+			productReference = 0BBB00F51CFF957200FC87C4 /* SwiftMockGenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,10 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBBEE451CFEFBDC00C11EEB /* MockProperties.swift in Sources */,
 				0BBBEE461CFEFBDC00C11EEB /* CallVerifier.swift in Sources */,
+				0BBB00F71CFF980000FC87C4 /* Verifiable.swift in Sources */,
 				0BBBEE481CFEFCAC00C11EEB /* main.swift in Sources */,
-				0BBBEE441CFEFBDC00C11EEB /* Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BBBEE491CFF013A00C11EEB /* main.swift in Sources */,
-				0BBBEE4A1CFF013A00C11EEB /* Mock.swift in Sources */,
-				0BBBEE4B1CFF013A00C11EEB /* MockProperties.swift in Sources */,
 				0BBBEE4C1CFF013A00C11EEB /* CallVerifier.swift in Sources */,
 				0BBBEE3F1CFEFBC100C11EEB /* CallVerifierTests.swift in Sources */,
 			);
@@ -351,6 +353,7 @@
 				0BBBEE391CFEFADC00C11EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

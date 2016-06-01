@@ -10,34 +10,32 @@ import Foundation
 
 class CallVerifier {
 
-    private typealias CallRecord = (name: String, args: [AnyObject])
+    private typealias CallRecord = (name: String, args: [CustomStringConvertible])
     private var calls: [CallRecord]
 
     init() {
         calls = [CallRecord]()
     }
 
-    func Record (name: String, _ args: AnyObject...) {
+    func record (_ name: String, _ args: CustomStringConvertible...) {
         calls.append((name, args))
     }
 
-    func Verify (name: String, _ args: AnyObject...) -> Bool {
+    func verify (_ name: String, _ args: CustomStringConvertible...) -> Bool {
 
         if args.count == 0 {
             return calls.contains( { (c) in c.name == name })
         }
 
-        return calls.contains( { (c) in c.name == name && c.args.elementsEqual(args, isEquivalent: CompareAnyObject)
+        return calls.contains( { (c) in c.name == name
+                                     && c.args.elementsEqual(args, isEquivalent: isEquivalentStringConvertible)
         })
     }
 
-
     //TODO: there is a glaring limitation to match objects here that I'm not sure how to overcome right now
-    private func CompareAnyObject (lhs: AnyObject, rhs: AnyObject) -> Bool {
-//        guard let l = lhs.description, r = rhs.description else {
-//            return lhs === rhs }
-//
-//        return l == r
-        return lhs === rhs
+    //      current (probably bad) idea is to have code generator add CustomStringConvertible implementation
+    //      as extension to each protocol being mocked.
+    private func isEquivalentStringConvertible (lhs: CustomStringConvertible, rhs: CustomStringConvertible) -> Bool {
+        return lhs.description == rhs.description
     }
 }
