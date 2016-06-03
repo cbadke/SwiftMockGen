@@ -8,6 +8,8 @@
 
 import XCTest
 
+@testable import SwiftMockGen
+
 private class custom : CustomStringConvertible {
     let Property: String
     init (prop: String) { Property = prop }
@@ -31,7 +33,6 @@ class CallVerifierTests: XCTestCase {
 
         let sut = CallVerifier()
         sut.record("someMethod")
-
     }
 
     func test_VerifyWithoutRecordingACall_ReturnsFalse() {

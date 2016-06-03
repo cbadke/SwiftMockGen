@@ -3,122 +3,134 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBB00F71CFF980000FC87C4 /* Verifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB00F61CFF980000FC87C4 /* Verifiable.swift */; };
-		0BBB010F1CFFD05C00FC87C4 /* Emailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB010E1CFFD05C00FC87C4 /* Emailer.swift */; };
-		0BBB01111CFFD0D700FC87C4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB01101CFFD0D700FC87C4 /* Contact.swift */; };
-		0BBB01141CFFD24100FC87C4 /* WidgetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB01131CFFD24100FC87C4 /* WidgetStore.swift */; };
-		0BBBEE3F1CFEFBC100C11EEB /* CallVerifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE3E1CFEFBC100C11EEB /* CallVerifierTests.swift */; };
-		0BBBEE461CFEFBDC00C11EEB /* CallVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */; };
-		0BBBEE481CFEFCAC00C11EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE471CFEFCAC00C11EEB /* main.swift */; };
-		0BBBEE491CFF013A00C11EEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE471CFEFCAC00C11EEB /* main.swift */; };
-		0BBBEE4C1CFF013A00C11EEB /* CallVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */; };
+		0B9FF3C01D018D7500B77B93 /* SwiftMockGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9FF3BF1D018D7500B77B93 /* SwiftMockGen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9FF3C71D018D7500B77B93 /* SwiftMockGen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9FF3BC1D018D7500B77B93 /* SwiftMockGen.framework */; };
+		0B9FF3D91D018E6F00B77B93 /* CallVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9FF3D61D018E6F00B77B93 /* CallVerifier.swift */; };
+		0B9FF3DB1D018E6F00B77B93 /* Verifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9FF3D81D018E6F00B77B93 /* Verifiable.swift */; };
+		0B9FF3DF1D018E9700B77B93 /* Emailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9FF3DD1D018E9700B77B93 /* Emailer.swift */; };
+		0B9FF3E01D018E9700B77B93 /* WidgetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9FF3DE1D018E9700B77B93 /* WidgetStore.swift */; };
+		0B9FF3E21D018EC400B77B93 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9FF3E11D018EC400B77B93 /* Contact.swift */; };
+		0B9FF3E41D018ECF00B77B93 /* CallVerifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9FF3E31D018ECF00B77B93 /* CallVerifierTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		0B6B721D1CFDAF7A00B36635 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
+/* Begin PBXContainerItemProxy section */
+		0B9FF3C81D018D7500B77B93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B9FF3B31D018D7500B77B93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B9FF3BB1D018D7500B77B93;
+			remoteInfo = SwiftMockGen;
 		};
-/* End PBXCopyFilesBuildPhase section */
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BBB00F41CFF957200FC87C4 /* SwiftMockGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftMockGen; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BBB00F51CFF957200FC87C4 /* SwiftMockGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMockGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BBB00F61CFF980000FC87C4 /* Verifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verifiable.swift; sourceTree = "<group>"; };
-		0BBB010E1CFFD05C00FC87C4 /* Emailer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Emailer.swift; path = MockSamples/Emailer.swift; sourceTree = "<group>"; };
-		0BBB01101CFFD0D700FC87C4 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		0BBB01131CFFD24100FC87C4 /* WidgetStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WidgetStore.swift; path = MockSamples/WidgetStore.swift; sourceTree = "<group>"; };
-		0BBBEE361CFEFADC00C11EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BBBEE3E1CFEFBC100C11EEB /* CallVerifierTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CallVerifierTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CallVerifier.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		0BBBEE471CFEFCAC00C11EEB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0B9FF3BC1D018D7500B77B93 /* SwiftMockGen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMockGen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9FF3BF1D018D7500B77B93 /* SwiftMockGen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMockGen.h; sourceTree = "<group>"; };
+		0B9FF3C11D018D7500B77B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B9FF3C61D018D7500B77B93 /* SwiftMockGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMockGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9FF3CD1D018D7500B77B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B9FF3D61D018E6F00B77B93 /* CallVerifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallVerifier.swift; sourceTree = "<group>"; };
+		0B9FF3D81D018E6F00B77B93 /* Verifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verifiable.swift; sourceTree = "<group>"; };
+		0B9FF3DD1D018E9700B77B93 /* Emailer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Emailer.swift; path = MockSamples/Emailer.swift; sourceTree = "<group>"; };
+		0B9FF3DE1D018E9700B77B93 /* WidgetStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WidgetStore.swift; path = MockSamples/WidgetStore.swift; sourceTree = "<group>"; };
+		0B9FF3E11D018EC400B77B93 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = MockSamples/Contact.swift; sourceTree = "<group>"; };
+		0B9FF3E31D018ECF00B77B93 /* CallVerifierTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallVerifierTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B6B721C1CFDAF7A00B36635 /* Frameworks */ = {
+		0B9FF3B81D018D7500B77B93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0BBBEE2F1CFEFADC00C11EEB /* Frameworks */ = {
+		0B9FF3C31D018D7500B77B93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9FF3C71D018D7500B77B93 /* SwiftMockGen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B6B72161CFDAF7A00B36635 = {
+		0B9FF3B21D018D7500B77B93 = {
 			isa = PBXGroup;
 			children = (
-				0B6B72211CFDAF7A00B36635 /* SwiftMockGen */,
-				0BBBEE331CFEFADC00C11EEB /* SwiftMockGenTests */,
-				0BBB00F41CFF957200FC87C4 /* SwiftMockGen */,
-				0BBB00F51CFF957200FC87C4 /* SwiftMockGenTests.xctest */,
+				0B9FF3BE1D018D7500B77B93 /* SwiftMockGen */,
+				0B9FF3CA1D018D7500B77B93 /* SwiftMockGenTests */,
+				0B9FF3BD1D018D7500B77B93 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0B6B72211CFDAF7A00B36635 /* SwiftMockGen */ = {
+		0B9FF3BD1D018D7500B77B93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BBB00F81CFF99C100FC87C4 /* MockSamples */,
-				0BBBEE471CFEFCAC00C11EEB /* main.swift */,
-				0BBBEE431CFEFBDC00C11EEB /* CallVerifier.swift */,
-				0BBB00F61CFF980000FC87C4 /* Verifiable.swift */,
+				0B9FF3BC1D018D7500B77B93 /* SwiftMockGen.framework */,
+				0B9FF3C61D018D7500B77B93 /* SwiftMockGenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B9FF3BE1D018D7500B77B93 /* SwiftMockGen */ = {
+			isa = PBXGroup;
+			children = (
+				0B9FF3DC1D018E8100B77B93 /* MockSamples */,
+				0B9FF3D61D018E6F00B77B93 /* CallVerifier.swift */,
+				0B9FF3D81D018E6F00B77B93 /* Verifiable.swift */,
+				0B9FF3BF1D018D7500B77B93 /* SwiftMockGen.h */,
+				0B9FF3C11D018D7500B77B93 /* Info.plist */,
 			);
 			path = SwiftMockGen;
 			sourceTree = "<group>";
 		};
-		0BBB00F81CFF99C100FC87C4 /* MockSamples */ = {
+		0B9FF3CA1D018D7500B77B93 /* SwiftMockGenTests */ = {
 			isa = PBXGroup;
 			children = (
-				0BBB010E1CFFD05C00FC87C4 /* Emailer.swift */,
-				0BBB01101CFFD0D700FC87C4 /* Contact.swift */,
-				0BBB01131CFFD24100FC87C4 /* WidgetStore.swift */,
-			);
-			name = MockSamples;
-			sourceTree = "<group>";
-		};
-		0BBB01121CFFD1A900FC87C4 /* SampleTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SampleTests;
-			sourceTree = "<group>";
-		};
-		0BBBEE331CFEFADC00C11EEB /* SwiftMockGenTests */ = {
-			isa = PBXGroup;
-			children = (
-				0BBB01121CFFD1A900FC87C4 /* SampleTests */,
-				0BBBEE3E1CFEFBC100C11EEB /* CallVerifierTests.swift */,
-				0BBBEE361CFEFADC00C11EEB /* Info.plist */,
+				0B9FF3E31D018ECF00B77B93 /* CallVerifierTests.swift */,
+				0B9FF3CD1D018D7500B77B93 /* Info.plist */,
 			);
 			path = SwiftMockGenTests;
 			sourceTree = "<group>";
 		};
+		0B9FF3DC1D018E8100B77B93 /* MockSamples */ = {
+			isa = PBXGroup;
+			children = (
+				0B9FF3E11D018EC400B77B93 /* Contact.swift */,
+				0B9FF3DD1D018E9700B77B93 /* Emailer.swift */,
+				0B9FF3DE1D018E9700B77B93 /* WidgetStore.swift */,
+			);
+			name = MockSamples;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		0B9FF3B91D018D7500B77B93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9FF3C01D018D7500B77B93 /* SwiftMockGen.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		0B6B721E1CFDAF7A00B36635 /* SwiftMockGen */ = {
+		0B9FF3BB1D018D7500B77B93 /* SwiftMockGen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B6B72261CFDAF7A00B36635 /* Build configuration list for PBXNativeTarget "SwiftMockGen" */;
+			buildConfigurationList = 0B9FF3D01D018D7500B77B93 /* Build configuration list for PBXNativeTarget "SwiftMockGen" */;
 			buildPhases = (
-				0B6B721B1CFDAF7A00B36635 /* Sources */,
-				0B6B721C1CFDAF7A00B36635 /* Frameworks */,
-				0B6B721D1CFDAF7A00B36635 /* CopyFiles */,
+				0B9FF3B71D018D7500B77B93 /* Sources */,
+				0B9FF3B81D018D7500B77B93 /* Frameworks */,
+				0B9FF3B91D018D7500B77B93 /* Headers */,
+				0B9FF3BA1D018D7500B77B93 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -126,64 +138,72 @@
 			);
 			name = SwiftMockGen;
 			productName = SwiftMockGen;
-			productReference = 0BBB00F41CFF957200FC87C4 /* SwiftMockGen */;
-			productType = "com.apple.product-type.tool";
+			productReference = 0B9FF3BC1D018D7500B77B93 /* SwiftMockGen.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		0BBBEE311CFEFADC00C11EEB /* SwiftMockGenTests */ = {
+		0B9FF3C51D018D7500B77B93 /* SwiftMockGenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BBBEE371CFEFADC00C11EEB /* Build configuration list for PBXNativeTarget "SwiftMockGenTests" */;
+			buildConfigurationList = 0B9FF3D31D018D7500B77B93 /* Build configuration list for PBXNativeTarget "SwiftMockGenTests" */;
 			buildPhases = (
-				0BBBEE2E1CFEFADC00C11EEB /* Sources */,
-				0BBBEE2F1CFEFADC00C11EEB /* Frameworks */,
-				0BBBEE301CFEFADC00C11EEB /* Resources */,
+				0B9FF3C21D018D7500B77B93 /* Sources */,
+				0B9FF3C31D018D7500B77B93 /* Frameworks */,
+				0B9FF3C41D018D7500B77B93 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0B9FF3C91D018D7500B77B93 /* PBXTargetDependency */,
 			);
 			name = SwiftMockGenTests;
 			productName = SwiftMockGenTests;
-			productReference = 0BBB00F51CFF957200FC87C4 /* SwiftMockGenTests.xctest */;
+			productReference = 0B9FF3C61D018D7500B77B93 /* SwiftMockGenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0B6B72171CFDAF7A00B36635 /* Project object */ = {
+		0B9FF3B31D018D7500B77B93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "DevFacto Technologies";
+				ORGANIZATIONNAME = "Curtis Badke";
 				TargetAttributes = {
-					0B6B721E1CFDAF7A00B36635 = {
+					0B9FF3BB1D018D7500B77B93 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					0BBBEE311CFEFADC00C11EEB = {
+					0B9FF3C51D018D7500B77B93 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 0B6B721A1CFDAF7A00B36635 /* Build configuration list for PBXProject "SwiftMockGen" */;
-			compatibilityVersion = "Xcode 6.3";
+			buildConfigurationList = 0B9FF3B61D018D7500B77B93 /* Build configuration list for PBXProject "SwiftMockGen" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0B6B72161CFDAF7A00B36635;
-			productRefGroup = 0B6B72161CFDAF7A00B36635;
+			mainGroup = 0B9FF3B21D018D7500B77B93;
+			productRefGroup = 0B9FF3BD1D018D7500B77B93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B6B721E1CFDAF7A00B36635 /* SwiftMockGen */,
-				0BBBEE311CFEFADC00C11EEB /* SwiftMockGenTests */,
+				0B9FF3BB1D018D7500B77B93 /* SwiftMockGen */,
+				0B9FF3C51D018D7500B77B93 /* SwiftMockGenTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BBBEE301CFEFADC00C11EEB /* Resources */ = {
+		0B9FF3BA1D018D7500B77B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B9FF3C41D018D7500B77B93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,33 +213,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B6B721B1CFDAF7A00B36635 /* Sources */ = {
+		0B9FF3B71D018D7500B77B93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBBEE461CFEFBDC00C11EEB /* CallVerifier.swift in Sources */,
-				0BBB010F1CFFD05C00FC87C4 /* Emailer.swift in Sources */,
-				0BBB01111CFFD0D700FC87C4 /* Contact.swift in Sources */,
-				0BBB01141CFFD24100FC87C4 /* WidgetStore.swift in Sources */,
-				0BBB00F71CFF980000FC87C4 /* Verifiable.swift in Sources */,
-				0BBBEE481CFEFCAC00C11EEB /* main.swift in Sources */,
+				0B9FF3DB1D018E6F00B77B93 /* Verifiable.swift in Sources */,
+				0B9FF3D91D018E6F00B77B93 /* CallVerifier.swift in Sources */,
+				0B9FF3E21D018EC400B77B93 /* Contact.swift in Sources */,
+				0B9FF3DF1D018E9700B77B93 /* Emailer.swift in Sources */,
+				0B9FF3E01D018E9700B77B93 /* WidgetStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0BBBEE2E1CFEFADC00C11EEB /* Sources */ = {
+		0B9FF3C21D018D7500B77B93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBBEE491CFF013A00C11EEB /* main.swift in Sources */,
-				0BBBEE4C1CFF013A00C11EEB /* CallVerifier.swift in Sources */,
-				0BBBEE3F1CFEFBC100C11EEB /* CallVerifierTests.swift in Sources */,
+				0B9FF3E41D018ECF00B77B93 /* CallVerifierTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0B9FF3C91D018D7500B77B93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B9FF3BB1D018D7500B77B93 /* SwiftMockGen */;
+			targetProxy = 0B9FF3C81D018D7500B77B93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		0B6B72241CFDAF7A00B36635 /* Debug */ = {
+		0B9FF3CE1D018D7500B77B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,6 +264,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -261,10 +287,12 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		0B6B72251CFDAF7A00B36635 /* Release */ = {
+		0B9FF3CF1D018D7500B77B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,6 +312,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -298,45 +327,64 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		0B6B72271CFDAF7A00B36635 /* Debug */ = {
+		0B9FF3D11D018D7500B77B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwiftMockGen/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfacto.SwiftMockGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		0B6B72281CFDAF7A00B36635 /* Release */ = {
+		0B9FF3D21D018D7500B77B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwiftMockGen/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfacto.SwiftMockGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		0BBBEE381CFEFADC00C11EEB /* Debug */ = {
+		0B9FF3D41D018D7500B77B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftMockGenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devfacto.SwiftMockGenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		0BBBEE391CFEFADC00C11EEB /* Release */ = {
+		0B9FF3D51D018D7500B77B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftMockGenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -348,34 +396,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B6B721A1CFDAF7A00B36635 /* Build configuration list for PBXProject "SwiftMockGen" */ = {
+		0B9FF3B61D018D7500B77B93 /* Build configuration list for PBXProject "SwiftMockGen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B6B72241CFDAF7A00B36635 /* Debug */,
-				0B6B72251CFDAF7A00B36635 /* Release */,
+				0B9FF3CE1D018D7500B77B93 /* Debug */,
+				0B9FF3CF1D018D7500B77B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B6B72261CFDAF7A00B36635 /* Build configuration list for PBXNativeTarget "SwiftMockGen" */ = {
+		0B9FF3D01D018D7500B77B93 /* Build configuration list for PBXNativeTarget "SwiftMockGen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B6B72271CFDAF7A00B36635 /* Debug */,
-				0B6B72281CFDAF7A00B36635 /* Release */,
+				0B9FF3D11D018D7500B77B93 /* Debug */,
+				0B9FF3D21D018D7500B77B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BBBEE371CFEFADC00C11EEB /* Build configuration list for PBXNativeTarget "SwiftMockGenTests" */ = {
+		0B9FF3D31D018D7500B77B93 /* Build configuration list for PBXNativeTarget "SwiftMockGenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BBBEE381CFEFADC00C11EEB /* Debug */,
-				0BBBEE391CFEFADC00C11EEB /* Release */,
+				0B9FF3D41D018D7500B77B93 /* Debug */,
+				0B9FF3D51D018D7500B77B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0B6B72171CFDAF7A00B36635 /* Project object */;
+	rootObject = 0B9FF3B31D018D7500B77B93 /* Project object */;
 }

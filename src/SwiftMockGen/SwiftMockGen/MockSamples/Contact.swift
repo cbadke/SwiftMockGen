@@ -9,9 +9,9 @@
 import Foundation
 
 struct Contact {
-    let firstName: String { get }
-    let lastName: String { get }
-    let email: String { get }
+    let firstName: String
+    let lastName: String
+    let email: String
 
     init(firstName: String, lastName: String, email: String) {
         self.firstName = firstName
